@@ -52,7 +52,7 @@ android {
 
     buildTypes {
         release {
-            signingConfig signingConfigs.debug 
+            signingConfig signingConfigs.debug
         }
     }
 }
@@ -62,5 +62,5 @@ flutter {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk17:$kotlin_version" // Updated to use JDK 8 as it's more common
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 }
